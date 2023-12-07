@@ -52,7 +52,9 @@ namespace EStore.Controllers
 
         public async Task<IActionResult> Products()
         {
+            //returned type is BSONDocument 
             var data = await _repository.GetAllDataAsync();
+            //Convert to generic list
             var res = data.ConvertAll(BsonTypeMapper.MapToDotNetValue);
 
             return Json(res);

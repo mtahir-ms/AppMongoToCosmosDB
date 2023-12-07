@@ -27,6 +27,7 @@ namespace EStore.Repository
         {
             try
             {
+                //MongoClient is used for MongoDB and Cosmos DB both. 
                 IMongoDatabase database = _mongoClient.GetDatabase(_databaseName);
                 IMongoCollection<BsonDocument> collection = database.GetCollection<BsonDocument>("Products");
                 var documents = await collection.Find(_ => true).ToListAsync();
@@ -51,6 +52,7 @@ namespace EStore.Repository
                 }
                 else
                 {
+                    //Cosmos DB connection string has some extra parameters. 
                     var connectionString = configuration.GetConnectionString("CosmosDB");
                     MongoClientSettings settings = MongoClientSettings.FromUrl(
                       new MongoUrl(connectionString)
