@@ -42,6 +42,9 @@ namespace EStore.Repository
         {
             try
             {
+                //Only make changes to connection string here. 
+                //Add this code to your application line 45 to 68. 
+
                 var databaseName = configuration["DatabaseName"];
                 var DatabaseProvider = configuration["DatabaseProvider"];
                 if (DatabaseProvider == "MongoDB")

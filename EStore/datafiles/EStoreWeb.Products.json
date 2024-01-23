@@ -1,11 +1,12 @@
-[{
-  "_id": {
-    "$oid": "65095e7d863ae0e936c2790a"
+[
+  {
+    "_id": {
+      "$oid": "65095e7d863ae0e936c2790a"
+    },
+    "ProductName": "iPhone-25",
+    "Price": "$1,999",
+    "Image": "/assests/img1.png"
   },
-  "ProductName": "iPhone-25",
-  "Price": "$1,999",
-  "Image": "/assests/img1.png"
-},
   {
     "_id": {
       "$oid": "65096382863ae0e936c27911"
@@ -22,22 +23,22 @@
     "Price": "$1000",
     "Image": "/assests/ExerciseMachine.jpg"
   },
-{
-  "_id": {
-    "$oid": "650c0087e81ad9a0915b462a"
+  {
+    "_id": {
+      "$oid": "650c0087e81ad9a0915b462a"
+    },
+    "ProductName": "Dell Laptop",
+    "Price": "$300",
+    "Image": "/assests/dell.png"
   },
-  "ProductName": "Dell Laptop",
-  "Price": "$300",
-  "Image": "/assests/dell.png"
-},
-{
-  "_id": {
-    "$oid": "650c33380c352a3f0480e925"
+  {
+    "_id": {
+      "$oid": "650c33380c352a3f0480e925"
+    },
+    "ProductName": "Surface Pro",
+    "Price": "$1,000 ",
+    "Image": "/assests/surfacepro.jpg"
   },
-  "ProductName": "Surface Pro",
-  "Price": "$1,000 ",
-  "Image": "/assests/surfacepro.jpg"
-},
   {
     "_id": {
       "$oid": "650c333e0c352a3f0480e926"
@@ -46,51 +47,52 @@
     "Price": "$300 ",
     "Image": "/assests/google-pixel-5-5g-1.jpg"
   },
-{
-  "_id": {
-    "$oid": "650c33620c352a3f0480e927"
+  {
+    "_id": {
+      "$oid": "650c33620c352a3f0480e927"
+    },
+    "ProductName": "iPhone-12 Pro Max",
+    "Price": "$30 ",
+    "Image": "/assests/iphone12.png"
   },
-  "ProductName": "iPhone-12 Pro Max",
-  "Price": "$30 ",
-  "Image": "/assests/iphone12.png"
-},
-{
-  "_id": {
-    "$oid": "650c33670c352a3f0480e928"
+  {
+    "_id": {
+      "$oid": "650c33670c352a3f0480e928"
+    },
+    "ProductName": "Mountain Bike",
+    "Price": "$300 ",
+    "Image": "/assests/bike.png"
   },
-  "ProductName": "Mountain Bike",
-  "Price": "$300 ",
-  "Image": "/assests/bike.png"
-},
-{
-  "_id": {
-    "$oid": "650c33860c352a3f0480e929"
+  {
+    "_id": {
+      "$oid": "650c33860c352a3f0480e929"
+    },
+    "ProductName": "Portable Charger",
+    "Price": "$20",
+    "Image": "/assests/portable.jpg"
   },
-  "ProductName": "Portable Charger",
-  "Price": "$20",
-  "Image": "/assests/portable.jpg"
-},
-{
-  "_id": {
-    "$oid": "650c338a0c352a3f0480e92a"
+  {
+    "_id": {
+      "$oid": "650c338a0c352a3f0480e92a"
+    },
+    "ProductName": "Tablets",
+    "Price": "$200",
+    "Image": "/assests/Tablets.png"
   },
-  "ProductName": "Tablets",
-  "Price": "$200",
-  "Image": "/assests/Tablets.png"
-},
-{
-  "_id": {
-    "$oid": "650c33920c352a3f0480e92b"
+  {
+    "_id": {
+      "$oid": "650c33920c352a3f0480e92b"
+    },
+    "ProductName": "Holiday Lights ",
+    "Price": "$300",
+    "Image": "/assests/lights.png"
   },
-  "ProductName": "Holiday Lights ",
-  "Price": "$300",
-  "Image": "/assests/lights.png"
-},
-{
-  "_id": {
-    "$oid": "650c37800c352a3f0480e92c"
-  },
-  "ProductName": "Blink Security Camera",
-  "Price": "$190 ",
-  "Image": "/assests/blink_securitycamera.jpg"
-}]
+  {
+    "_id": {
+      "$oid": "650c37800c352a3f0480e92c"
+    },
+    "ProductName": "Blink Security Camera",
+    "Price": "$190 ",
+    "Image": "/assests/blink_securitycamera.jpg"
+  }
+]
